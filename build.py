@@ -49,7 +49,8 @@ def build():
 // @description StashDB Userscripts Development Bundle
 // @version     {config.BUNDLE_VERSION}
 // @author      7dJx1qP
-// @match       {config.SERVER_URL}/*
+// @match       {config.SERVER_URL[0]}/*
+// @match       {config.SERVER_URL[1]}/*
 // @resource    IMPORTED_CSS file://{os.path.join(ROOTDIR, 'src')}\scene.css
 // @grant       unsafeWindow
 // @grant       GM_setClipboard
@@ -78,7 +79,8 @@ def build():
 // @description StashDB Userscripts Bundle
 // @version     {config.BUNDLE_VERSION}
 // @author      7dJx1qP
-// @match       {config.SERVER_URL}/*
+// @match       {config.SERVER_URL[0]}/*
+// @match       {config.SERVER_URL[1]}/*
 // @resource    IMPORTED_CSS https://raw.githubusercontent.com/7dJx1qP/stashdb-userscripts/{GIT_BRANCH}/dist/public/scene.css
 // @grant       unsafeWindow
 // @grant       GM_setClipboard

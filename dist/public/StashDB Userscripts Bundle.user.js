@@ -5,6 +5,7 @@
 // @version     0.3.0
 // @author      7dJx1qP
 // @match       https://stashdb.org/*
+// @match       https://fansdb.xyz/*
 // @resource    IMPORTED_CSS https://raw.githubusercontent.com/7dJx1qP/stashdb-userscripts/master/dist/public/scene.css
 // @grant       unsafeWindow
 // @grant       GM_setClipboard
@@ -21,5 +22,6 @@
 // **************************************************************************************************
 //
 // @require     https://raw.githubusercontent.com/7dJx1qP/stashdb-userscripts/master/src/body\StashDB Copy StashID.user.js
+// @require     https://raw.githubusercontent.com/7dJx1qP/stashdb-userscripts/master/src/body\StashDB Draft Image Pasting.user.js
 
 // ==/UserScript==
