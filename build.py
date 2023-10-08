@@ -81,7 +81,7 @@ def build():
 // @author      7dJx1qP
 // @match       {config.SERVER_URL[0]}/*
 // @match       {config.SERVER_URL[1]}/*
-// @resource    IMPORTED_CSS https://raw.githubusercontent.com/7dJx1qP/stashdb-userscripts/{GIT_BRANCH}/dist/public/scene.css
+// @resource    IMPORTED_CSS https://raw.githubusercontent.com/elkorol/stashdb-userscripts/{GIT_BRANCH}/dist/public/scene.css
 // @grant       unsafeWindow
 // @grant       GM_setClipboard
 // @grant       GM_getResourceText
